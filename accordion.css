@@ -1,0 +1,49 @@
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.panel-faq-container {
+  margin-bottom: -16px;
+}
+.panel-faq-title {
+  color: #00eaea;
+  cursor: pointer;
+}
+
+.panel-faq-answer {
+  /* display: none;
+  padding: 15px; */
+  height: 0px;
+  overflow: hidden;
+  transition: all 1.35s;
+  /* transition은 변화가 시작하는 쪽에 적용하기 */
+}
+
+.active {
+  /* answer이 보이게 하는거 */
+  display: block;
+  height: 300px;
+}
+
+#btn-all-close {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  background-color: gray;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 20px;
+  float: right;
+}
+
+#btn-all-close:hover {
+  background-color: #68cccc;
+  color: yellow;
+  transition: all 0.38s ease-in-out;
+}
+
+#all_answer_bottom {
+  color: darkkhaki;
+}
